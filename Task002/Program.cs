@@ -13,8 +13,7 @@ if(number1 == number2)
 else
 {
     int min = Math.Min(number1, number2);
-    Console.WriteLine($"Min = {min}");
-
     int max = Math.Max(number1, number2);
-    Console.WriteLine($"Max = {max}");
+    
+    Console.WriteLine($"Min = {min}, Max = {max}");
 }
